@@ -22,7 +22,6 @@ body {
   text-decoration: none;
   border-radius: 2px;
   background-color: #ee3643;
-
 }
 
 li {
@@ -99,13 +98,11 @@ li {
 
 .product-search {
   position: relative;
-  /*width: 270px;*/
   width: 221px;
   margin-left: 49px;
   padding: 0;
   background-color: #293449;
   border: none;
-
 
   /* Временно для сетки */
   min-height: 42px;
@@ -118,16 +115,10 @@ input[type="search"]::-webkit-input-placeholder {
 
 .product-navigation li:first-child {
   position: relative;
-  /*width: 221px;*/
-  /*margin-left: 49px;*/
   margin: 0;
   padding: 0;
-
-  /* Временно для сетки */
-
 }
 
-/*.product-search::before*/
 .product-navigation li:first-child::before {
   content: "";
   position: absolute;
@@ -137,7 +128,6 @@ input[type="search"]::-webkit-input-placeholder {
   height: 17px;
   background-image: url(../img/svg-technomart/icon-search.svg);
   background-repeat: no-repeat;
-  /*background-color: white;*/
   opacity: 0.3;
 }
 
@@ -312,7 +302,6 @@ li:nth-child(4) .buy-links {
 
   /* Временно для сетки */
   min-height: 60px;
-  background-color: rgba(239, 137, 137, 0.3);
 }
 
 .site-navigation {
@@ -333,8 +322,6 @@ li:nth-child(4) .buy-links {
   line-height: 17px;
   text-decoration: none;
 }
-
-/*возможно space-between*/
 
 .site-navigation li:first-child a {
   padding-right: 34px;
@@ -370,8 +357,6 @@ li:nth-child(4) .buy-links {
   padding-right: 50px;
   padding-left: 30px;
 }
-
-/*возможно space-between*/
 
 .slider-area {
   display: flex;
@@ -494,7 +479,6 @@ li:nth-child(4) .buy-links {
   right: 140px;
   box-sizing: border-box;
   width: 135px;
-
   margin: 0;
   background-color: rgba(0, 0, 0, 0.1);
 }
@@ -779,11 +763,6 @@ li:nth-child(4) .buy-links {
   padding-left: 10px;
 }
 
-
-
-
-
-
 .services {
   position: relative;
   display: flex;
@@ -797,7 +776,6 @@ li:nth-child(4) .buy-links {
 
   /* Временно для сетки */
   min-height: 522px;
-  /*background-color: rgba(231, 84, 217, 0.4);*/
 }
 
 .container2 {
@@ -844,7 +822,6 @@ li:nth-child(4) .buy-links {
 
   /* Временно для сетки */
   min-height: 183px;
-  /*background-color: rgba(231, 84, 217, 0.4);*/
 }
 
 .services-menu {
@@ -858,7 +835,6 @@ li:nth-child(4) .buy-links {
   box-sizing: border-box;
   width: 240px;
   min-height: 61px;
-  /*margin: 0;*/
   padding-top: 16px;
   padding-bottom: 15px;
   padding-left: 23px;
@@ -899,57 +875,8 @@ li:nth-child(4) .buy-links {
   margin-top: 31px;
 }
 
-/*.menu-service*/ {
-  margin: 0;
-}
-
-/*.input-menu*/ {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-/*.services-label*/ {
-  display: block;
-  box-sizing: border-box;
-  width: 240px;
-  min-height: 61px;
-  margin: 0;
-  padding-top: 21px;
-  padding-bottom: 20px;
-  padding-left: 23px;
-  font-family: "Cuprum", "Arial", sans-serif;
-  font-size: 21px;
-  font-weight: bold;
-  line-height: 30px;
-  color: white;
-  box-shadow:
-    0px 1px 0 0 #293449,
-    inset 0px 1px 0 0 #405069;
-  background-color: #32425c;
-}
-
-/*.input-menu:checked + label*/ {
-  color: #32425c;
-  box-shadow:
-    0px 1px 0 0 white,
-    inset 0px 1px 0 0 white;
-  background-color: white;
-}
-
-
-
-
-
 .container3 {
   position: relative;
-  /*display: none;*/
-  /*width: 275px;*/
   width: 620px;
   margin-top: 0;
   margin-left: 80px;
@@ -966,7 +893,6 @@ li:nth-child(4) .buy-links {
 }
 
 .services-item-description {
-
   margin: 0;
   padding-top: 20px;
   font-size: 13px;
@@ -977,7 +903,6 @@ li:nth-child(4) .buy-links {
 .services-delivery {
   position: relative;
   width: 275px;
-
 }
 
 .services-guarantee {
@@ -1046,7 +971,6 @@ li:nth-child(4) .buy-links {
 
   /* Временно для сетки */
   min-height: 368px;
-  /*background-color: rgba(232, 140, 140, 0.3);*/
 }
 
 .company-header {
@@ -1075,7 +999,6 @@ li:nth-child(4) .buy-links {
   position: relative;
   margin-top: 23px;
   padding: 0;
-  /*margin-left: 36px;*/
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 18px;
   line-height: 20px;
@@ -1093,9 +1016,6 @@ li:nth-child(4) .buy-links {
 
 .more-details {
   width: 220px;
-
-  /* Временно для сетки */
-  /*min-height: 38px;*/
 }
 
 .contacts {
@@ -1108,7 +1028,6 @@ li:nth-child(4) .buy-links {
 
   /* Временно для сетки */
   min-height: 368px;
-  /*background-color: rgba(232, 140, 140, 0.3);*/
 }
 
 .contacts-header {
@@ -1135,16 +1054,6 @@ li:nth-child(4) .buy-links {
   border: none;
   min-height: 38px;
 }
-
-
-
-
-
-
-
-
-
-
 
 .main-footer {
   position: relative;
@@ -1189,7 +1098,6 @@ li:nth-child(4) .buy-links {
   width: 940px;
   margin-right: auto;
   margin-left: auto;
-  /*width: 550px;*/
 
   /* Временно для сетки */
   min-height: 24px;
@@ -1204,16 +1112,6 @@ li:nth-child(4) .buy-links {
   color: #f1f5f7;
   text-decoration: none;
 }
-
-/*.footer-wrapper-2*/ {
-  width: 940px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-
-
-
 
 .footer-middle-navigation {
   display: flex;
@@ -1237,7 +1135,6 @@ li:nth-child(4) .buy-links {
 }
 
 .footer-middle-navigation a {
-
   margin-left: 60px;
   padding: 0;
   font-family: "Cuprum", "Arial", sans-serif;
@@ -1252,10 +1149,6 @@ li:nth-child(4) .buy-links {
   padding: 0;
 }
 
-
-
-
-
 .footer-bottom {
   display: flex;
   align-items: center;
@@ -1266,18 +1159,6 @@ li:nth-child(4) .buy-links {
   /* Временно для сетки */
   min-height: 107px;
 }
-
-/*.bottom-container*/ {
-  display: flex;
-  align-items: center;
-  width: 940px;
-  margin: 0 auto;
-}
-
-
-
-
-
 
 .footer-copyright {
   width: 228px;
@@ -1378,13 +1259,6 @@ li:nth-child(3) .social {
 
                          /*CATALOG.HTML*/
 
-
-
-
-
-
-
-
 .added-cart {
   background-color: #ee3643;
 }
@@ -1404,10 +1278,6 @@ li:nth-child(3) .social {
   color: #32425c;
 }
 
-
-
-
-
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -1417,7 +1287,6 @@ li:nth-child(3) .social {
 
   /* Временно для сетки */
   min-height: 1370px;
-  /*background-color: rgba(240, 96, 96, 0.3);*/
 }
 
 .breadcrumbs {
@@ -1429,7 +1298,6 @@ li:nth-child(3) .social {
 
   /* Временно для сетки */
   min-height: 59px;
-  /*background-color: rgba(100, 96, 100, 0.5);*/
 }
 
 .breadcrumbs a {
@@ -1443,9 +1311,6 @@ li:nth-child(3) .social {
   font-size: 13px;
   line-height: 13px;
   color: #000000;
-
-  /* Временно для сетки */
-  /*background-color: rgba(200, 200, 100, 0.5);*/
 }
 
 .breadcrumbs li:first-child a {
@@ -1471,10 +1336,6 @@ li:nth-child(3) .social {
   background-repeat: no-repeat;
 }
 
-
-
-
-
 .hammer-drills {
   box-sizing: border-box;
   width: 940px;
@@ -1491,10 +1352,6 @@ li:nth-child(3) .social {
   /* Временно для сетки */
   min-height: 89px;
 }
-
-
-
-
 
 .filters {
   /*display: flex;*/
@@ -1526,57 +1383,18 @@ li:nth-child(3) .social {
   min-height: 38px;
 }
 
-/*.price-field*/ {
-  width: 220px;
-  margin: 0;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 0;
-
-  /* Временно для сетки */
-  min-height: 80px;
-  /*background-color: rgba(200, 200, 100, 0.5);*/
-}
-
 fieldset {
   padding: 0;
   border: none;
 }
 
-/*legend.legend-price,*/
 legend.legend-manufacturers,
 legend.legend-power {
   font-size: 17px;
   font-weight: bold;
   line-height: 30px;
   color: #000000;
-
-  /* Временно для сетки */
-  /*background-color: rgba(200, 200, 100, 0.5);*/
 }
-
-
-
-/*.range-field*/ {
-  display: block;
-  box-sizing: border-box;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-
-/*.range-numbers*/ {
-  display: block;
-  margin-top: 10px;
-}
-
-/*output*/ {
-  /* Временно для сетки */
-  /*background-color: rgba(200, 200, 100, 0.5);*/
-}
-
-
-
-
 
 .price-field {
   width: 220px;
@@ -1600,7 +1418,6 @@ legend.legend-power {
   left: 20px;
   width: 180px;
   height: 2px;
-  /*background-color: #d7dcde;*/
   background-image:
     linear-gradient(to right, #00ca74 140px, #d7dcde 140px, #d7dcde 180px);
   z-index: 10;
@@ -1649,7 +1466,6 @@ legend.legend-power {
   text-align: center;
   background-color: #f7f3ec;
   border-radius: 3px;
-
   min-height: 38px;
 }
 
@@ -1664,11 +1480,6 @@ legend.legend-power {
   top: 11px;
   right: -25px;
 }
-
-
-
-
-
 
 .filter-option {
   padding: 0;
@@ -1685,7 +1496,6 @@ legend.legend-power {
   font-size: 15px;
   line-height: 20px;
   color: #000000;
-
 }
 
 .check-input,
@@ -1765,7 +1575,6 @@ legend.legend-power {
   border: solid 1px #e5e5e5;
   border-radius: 2px;
   background-color: #ffffff;
-
   min-height: 38px;
 }
 
@@ -1787,10 +1596,6 @@ legend.legend-power {
   text-transform: uppercase;
   background-color: #f7f3ec;
 }
-
-
-
-
 
 .sorting {
   display: flex;
@@ -1850,10 +1655,6 @@ legend.legend-power {
   background-repeat: no-repeat;
 }
 
-
-
-
-
 .products-list {
   display: flex;
   flex-wrap: wrap;
@@ -1869,7 +1670,6 @@ legend.legend-power {
 }
 
 .products-list li {
-  /*box-sizing: border-box;*/
   width: 220px;
   margin: 0;
   padding: 0;
@@ -1890,27 +1690,19 @@ legend.legend-power {
   right: 1px;
   display: none;
   width: 218px;
-  /*height: 170px;*/
   padding: 40px 0;
   background-color: white;
   z-index: 10;
 }
 
 .actions a.button {
-  /*display: inline-block;*/
-  /*width: 135px;*/
-
   margin: 0 auto;
-
   margin-bottom: 7px;
   box-shadow: inset 0px -3px 0 0 #367315;
   background-color: #63a63e;
 }
 
 .actions button.button {
-  /*display: inline-block;*/
-  /*width: 135px;*/
-
   margin: 0 auto;
   color: #32425c;
   border: 3px solid #63a63e;
@@ -1932,11 +1724,6 @@ legend.legend-power {
   border: solid 3px #63a63e;
 }
 
-
-
-
-
-
 .pagination-list {
   display: flex;
   width: 700px;
@@ -1945,7 +1732,6 @@ legend.legend-power {
 
   /* Временно для сетки */
   min-height: 38px;
-  /*background-color: rgba(100, 96, 100, 0.5);*/
 }
 
 .pagination-list a {
@@ -1963,7 +1749,6 @@ legend.legend-power {
 }
 
 .pagination-current a {
-  /*width: 38px;*/
   padding-top: 11px;
   padding-bottom: 11px;
   font-size: 13px;
@@ -1983,9 +1768,6 @@ legend.legend-power {
   width: 140px;
 }
 
-
-
-
 .about-product {
   width: 1200px;
   margin-top: 60px;
@@ -2004,7 +1786,6 @@ legend.legend-power {
 
   /* Временно для сетки */
   min-height: 121px;
-  /*background-color: rgba(100, 96, 100, 0.5);*/
 }
 
 .heading-about {
@@ -2037,12 +1818,6 @@ legend.legend-power {
 
 
                          /*STYLEGUIDE*/
-
-
-
-
-
-
 
 .product-navigation a:hover,
 .product-navigation a:focus,
@@ -2135,13 +1910,11 @@ legend.legend-power {
 
 .to-bookmarks:hover,
 .to-bookmarks:focus {
-
   border: solid 3px #32425c;
 }
 
 .to-bookmarks:active {
   color: rgba(50, 66, 92, 0.3);
-
   opacity: 0.3;
   border: solid 3px #32425c;
 }
@@ -2151,7 +1924,6 @@ legend.legend-power {
   box-shadow: 0px 10px 25px 0 rgba(41, 52, 73, 0.5);
 }
 
-
 .sorting li:nth-child(2) a:hover,
 .sorting li:nth-child(2) a:focus,
 .sorting li:nth-child(3) a:hover,
@@ -2159,7 +1931,6 @@ legend.legend-power {
 .sorting li:nth-child(4) a:hover,
 .sorting li:nth-child(4) a:focus {
   color: #000000;
-
   border-bottom: 1px solid #ee3643;
 }
 
